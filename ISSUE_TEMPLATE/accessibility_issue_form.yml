@@ -1,6 +1,6 @@
 name: Accessibility Issue
 description: Document an accessibility issue and any actions taken to correct it
-title: "*[BUG] <title>"
+title: "[BUG] <title>"
 body:
 - type: input
   id: jira_ticket
