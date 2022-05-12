@@ -1,6 +1,6 @@
 name: Accessibility Issue
 description: Document an accessibility issue and any actions taken to correct it
-title: [Date] [problem]
+title: "<jira ticket number>: <title>"
 body:
 - type: markdown
   attributes:
