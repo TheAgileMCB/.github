@@ -11,7 +11,7 @@ body:
     required: false
 - type: markdown
   attributes:
-    value: "## Problem Overview"
+    value: "# Problem Overview"
 - type: input
   id: problem
   attributes:
@@ -55,7 +55,7 @@ body:
     required: true
 - type: markdown
   attributes:
-    value: "## Change Overview" 
+    value: "# Change Overview" 
 - type: textarea
   id: visual_observation
   attributes:
