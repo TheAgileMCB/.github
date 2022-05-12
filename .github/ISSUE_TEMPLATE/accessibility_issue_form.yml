@@ -1,14 +1,7 @@
 name: Accessibility Issue
 description: Document an accessibility issue and any actions taken to correct it
-title: ": Stuff"
+title: " "
 body:
-- type: input
-  id: &bug
-  attributes:
-    label: Jira ticket number
-    description: How many unique site URLs are impacted by the Problem?
-  validations:
-    required: false
 - type: markdown
   attributes:
     value: "# Problem Overview"
@@ -39,7 +32,7 @@ body:
     label: Examples of affected URL(s)
   validations:
     required: true
-- type: textarea
+- type: input
   id: recommended_correction
   attributes:
     label: Recommended correction
