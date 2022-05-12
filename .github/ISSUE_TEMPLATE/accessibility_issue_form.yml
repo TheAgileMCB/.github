@@ -1,9 +1,9 @@
 name: Accessibility Issue
 description: Document an accessibility issue and any actions taken to correct it
-title: *bug": Stuff"
+title: &bug": Stuff"
 body:
 - type: input
-  id: &bug
+  id: *bug
   attributes:
     label: Jira ticket number
     description: How many unique site URLs are impacted by the Problem?
