@@ -1,9 +1,9 @@
 name: Accessibility Issue
 description: Document an accessibility issue and any actions taken to correct it
-title: "[BUG] <title>"
+title: "[*BUG] <title>"
 body:
 - type: input
-  id: jira_ticket
+  id: &BUG
   attributes:
     label: Jira ticket number
     description: How many unique site URLs are impacted by the Problem?
@@ -12,7 +12,7 @@ body:
 - type: markdown
   attributes:
     value: "## Problem Overview"
-- type: textarea
+- type: input
   id: problem
   attributes:
     label: Problem
@@ -29,7 +29,7 @@ body:
 - type: input
   id: prevalence
   attributes:
-    label: Number of URLS affected
+    label: Number of URLs affected
     description: How many unique site URLs are impacted by the Problem?
   validations:
     required: false
